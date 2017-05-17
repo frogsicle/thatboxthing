@@ -107,3 +107,8 @@ get.cannonical <- function(ashape){
   rankedscores <- order(scores[1,], scores[2,], decreasing=T)
   return(homies[[rankedscores[1]]])
 }
+
+### preparation to generate shapes
+# check contiguity
+# make sub-shape and remainder
+
